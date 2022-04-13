@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+     /* margin-top: 2rem; 
+    margin-left: 4rem;
+     
+     flex-direction: coinlilumn; 
+    font-size: 4rem; 
+
+    
+     */
+
+.centerdiv{
+    padding: 10px;
+    margin-top: 9rem;
+    border: 2px solid black;
+    justify-content: center;
+    margin: auto;
+     margin-right: 2rem;
+     height: 80vh;
+     width: 60%;
+    box-shadow: white 5px;
+     background-color: rgb(92, 88, 91);
+     margin-left: 10px;
+     
+ 
+     justify-content: center; 
+     text-align: center; 
+}
+.detail{
+    
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    word-spacing: 15;
+ 
+}
+#nameid{
+    height: 4rem;
+    background-color: rgb(227, 234, 236);
+    text-align: center;
+    box-shadow: 5px 5px white;
+    border-radius: 5px;
+    
+ 
+}
+
+.imagediv{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+    /* border-style: groove; */
+    /* background-color: slategrey; */
+   
+}
+
+button{
+    margin-top: 1rem;
+    height: 3.5rem;
+    width: 9.8rem;
+    color: brown;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    background-color: rgb(30, 171, 214);
+    color: white;
+    font-weight: bold;
+    /* border: 2px solid white; */
+}
+    
+
+button:hover{
+   cursor: pointer;
+   
+}
